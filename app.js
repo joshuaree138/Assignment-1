@@ -67,5 +67,11 @@ app.delete('/tweet/:id',(req,res)=>{
 
 });
 
+function test_print(){
+
+         console.log("test code")
+
+}
+
 // Back End should work just didnt have enough time for front end
 app.listen(3000,()=> console.log("HOME"));
